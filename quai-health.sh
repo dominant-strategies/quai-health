@@ -1,11 +1,11 @@
 #!/bin/bash
 
 # Default port and health status
-PORT=8080
-HEALTHY=true  # Set this to `false` to simulate an unhealthy status
+PORT=5000
+HEALTHY=true
 
 # List of IPs to check
-IPS=("35.225.109.37" "34.170.246.185" "34.138.8.33" "35.231.18.216" "34.150.225.232" "35.245.223.75")  # Replace with your actual IPs
+IPS=("35.225.109.37" "34.170.246.185" "34.138.8.33" "35.231.18.216" "34.150.225.232" "35.245.223.75")
 
 # Parse flags
 while getopts ":p:i:" opt; do
