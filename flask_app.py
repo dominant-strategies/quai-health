@@ -10,7 +10,7 @@ ips = ["35.225.109.37", "34.170.246.185", "34.138.8.33", "35.231.18.216", "34.15
 
 app = Flask(__name__)
 
-@app.route("/", methods=["GET"])
+@app.route("/cyprus1", methods=["GET"])
 def health_check():
     healthy = os.environ.get("HEALTHY") == "true"
     ip_block_data = {}  # Store each IP and its block number

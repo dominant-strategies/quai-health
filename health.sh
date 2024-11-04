@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Default port and health status
-PORT=2000
+PORT=80
 HEALTHY=true
 
 # Parse flags
